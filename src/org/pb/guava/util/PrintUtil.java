@@ -1,11 +1,11 @@
 package org.pb.guava.util;
 
 public final class PrintUtil {
-	public static void print(Object object) {
+	public <T> static void print(T object) {
 		System.out.print(object);
 	}
 	
-	public static void println(Object object) {
+	public <T> static void println(T object) {
 		System.out.println(object);
 	}
 	
